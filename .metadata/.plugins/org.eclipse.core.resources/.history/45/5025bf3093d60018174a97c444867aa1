@@ -1,0 +1,5 @@
+username = murugan
+password = london6688
+url = https://www.freecrm.com
+implicit wait = 20
+browser = chrome

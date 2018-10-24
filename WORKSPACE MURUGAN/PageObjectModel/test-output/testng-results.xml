@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Model Demo" duration-ms="53553" started-at="2018-10-23T11:38:35Z" finished-at="2018-10-23T11:39:29Z">
+    <groups>
+    </groups>
+    <test name="Free CRM appliaction" duration-ms="53553" started-at="2018-10-23T11:38:35Z" finished-at="2018-10-23T11:39:29Z">
+      <class name="com.qa.Testcase.Logintestcase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Testcase.Logintestcase@1a968a59]" name="setup" is-config="true" duration-ms="21691" started-at="2018-10-23T11:38:35Z" finished-at="2018-10-23T11:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="loginpagetitletest()[pri:0, instance:com.qa.Testcase.Logintestcase@1a968a59]" name="loginpagetitletest" duration-ms="64" started-at="2018-10-23T11:38:57Z" finished-at="2018-10-23T11:38:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [#1 Free CRM] but found [#1 Free CRM software in the cloud for sales and service]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [#1 Free CRM] but found [#1 Free CRM software in the cloud for sales and service]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.qa.Testcase.Logintestcase.loginpagetitletest(Logintestcase.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpagetitletest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.Testcase.Logintestcase@1a968a59]" name="close" is-config="true" duration-ms="1535" started-at="2018-10-23T11:38:57Z" finished-at="2018-10-23T11:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Testcase.Logintestcase@1a968a59]" name="setup" is-config="true" duration-ms="16903" started-at="2018-10-23T11:38:58Z" finished-at="2018-10-23T11:39:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatelogin()[pri:0, instance:com.qa.Testcase.Logintestcase@1a968a59]" name="validatelogin" duration-ms="11497" started-at="2018-10-23T11:39:15Z" finished-at="2018-10-23T11:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.Testcase.Logintestcase@1a968a59]" name="close" is-config="true" duration-ms="1774" started-at="2018-10-23T11:39:27Z" finished-at="2018-10-23T11:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.qa.Testcase.Logintestcase -->
+    </test> <!-- Free CRM appliaction -->
+  </suite> <!-- Page Object Model Demo -->
+</testng-results>

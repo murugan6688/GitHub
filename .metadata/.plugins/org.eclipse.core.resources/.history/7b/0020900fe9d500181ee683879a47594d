@@ -1,0 +1,25 @@
+package com.qa.TestNG.Testcases;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.testng.annotations.BeforeMethod;
+
+import com.qa.base.TestBase;
+
+public class LoginPageTest extends TestBase {
+		LoginPage loginPage;
+	public LoginPageTest() throws IOException{
+		super();
+		
+	}
+	@BeforeMethod
+	public void setup(){
+		browserintialisation();
+		loginPage = new LoginPage();
+		
+		
+		
+	
+	}
+}

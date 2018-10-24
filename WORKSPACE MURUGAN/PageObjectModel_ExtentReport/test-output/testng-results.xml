@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Model Demo" duration-ms="42961" started-at="2018-10-23T12:34:45Z" finished-at="2018-10-23T12:35:28Z">
+    <groups>
+    </groups>
+    <test name="Free CRM appliaction" duration-ms="42961" started-at="2018-10-23T12:34:45Z" finished-at="2018-10-23T12:35:28Z">
+      <class name="com.qa.Testcase.Logintestcase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Testcase.Logintestcase@1f28c152]" name="setup" is-config="true" duration-ms="20921" started-at="2018-10-23T12:34:45Z" finished-at="2018-10-23T12:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginpagetitletest()[pri:0, instance:com.qa.Testcase.Logintestcase@1f28c152]" name="loginpagetitletest" duration-ms="42" started-at="2018-10-23T12:35:06Z" finished-at="2018-10-23T12:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpagetitletest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.Testcase.Logintestcase@1f28c152]" name="close" is-config="true" duration-ms="1676" started-at="2018-10-23T12:35:06Z" finished-at="2018-10-23T12:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Testcase.Logintestcase@1f28c152]" name="setup" is-config="true" duration-ms="11731" started-at="2018-10-23T12:35:08Z" finished-at="2018-10-23T12:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatelogin()[pri:0, instance:com.qa.Testcase.Logintestcase@1f28c152]" name="validatelogin" duration-ms="7075" started-at="2018-10-23T12:35:20Z" finished-at="2018-10-23T12:35:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.Testcase.Logintestcase@1f28c152]" name="close" is-config="true" duration-ms="1456" started-at="2018-10-23T12:35:27Z" finished-at="2018-10-23T12:35:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.qa.Testcase.Logintestcase -->
+    </test> <!-- Free CRM appliaction -->
+  </suite> <!-- Page Object Model Demo -->
+</testng-results>

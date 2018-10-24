@@ -1,0 +1,48 @@
+package com.qa.Testcase;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.qa.TestBase.Parent;
+import com.qa.pages.objectrepository.HomePage;
+import com.qa.pages.objectrepository.LoginPage;
+
+public class Logintestcase extends Parent {
+
+	LoginPage objref_loginpage;
+	
+	HomePage objref_homepage;
+	
+	public Logintestcase(){
+		super(); // step:1 used to call the super class constructor 
+		// i.e parent class so that properties is enabled
+	}
+	
+	@BeforeMethod
+	public void setup(){
+		initialise(); //Step:2 this will be initalised and this is from LoginPage.java
+		objref_loginpage = new LoginPage();
+		
+	}
+	@Test
+	public void loginpagetitletest(){
+		String title = objref_loginpage.validateloginpagetitle();
+		Assert.assertEquals(title, "#1 Free CRM");
+	}
+	
+	@Test
+	public void validatelogin(){
+		objref_homepage = objref_loginpage.login(objectref_toopenconfigproperties.getProperty("username"), objectref_toopenconfigproperties.getProperty("password"));
+		
+	}
+	@AfterMethod   
+	public void close(){
+		browser.quit();
+			}
+	
+	}
+	
+	
+

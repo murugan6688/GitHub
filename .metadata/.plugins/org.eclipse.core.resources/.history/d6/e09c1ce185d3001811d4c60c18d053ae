@@ -1,0 +1,22 @@
+package Stepdefinition;
+
+import cucumber.api.java.en.Given;
+public class LoginStepdefinition {
+
+//  Given 
+//	When User enter the valid credentials
+//	Then  User clicks the login button 
+//	And page navigates without error 
+//	And verify user landed on home page
+	
+	@Given("^Login page is available to access$")
+	
+	public void Login_page_is_available_to_access()
+	{
+		
+	}
+	
+	
+	
+	
+}

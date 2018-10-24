@@ -1,0 +1,9 @@
+First create folder structure in the below format
+SRC/MAIN/JAVA
+SRC/MAIN/JAVA/com.qa.base(Package)
+SRC/MAIN/JAVA/com.qa.config(Package)
+SRC/MAIN/JAVA/com.qa.pages(Package)
+SRC/MAIN/JAVA/com.qa.testdataEXCEL(Package)
+SRC/MAIN/JAVA/com.qa.util(Package)
+SRC/TEST/JAVA
+SRC/MAIN/JAVA/com.qa.Testcase(Package)

@@ -1,0 +1,9 @@
+package com.qa.util;
+
+public class Testutil {
+	
+	public static long PAGE_OUT_TIMEOUT = 20;
+	public static long IMPLICIT =10;
+	
+
+}

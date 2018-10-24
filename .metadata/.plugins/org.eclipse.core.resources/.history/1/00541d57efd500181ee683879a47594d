@@ -1,0 +1,45 @@
+package com.qa.TestNG.Testcases;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.qa.base.TestBase;
+import com.qa.pages.HomePage;
+import com.qa.pages.LoginPage;
+
+public class LoginPageTest extends TestBase {
+		LoginPage objectofloginPage;
+		HomePage objectofhomepage;
+	public LoginPageTest() throws IOException{
+		super();
+		
+	}
+	@BeforeMethod
+	public void setup() throws Exception{
+		browserintialisation();
+		objectofloginPage = new LoginPage();
+	}
+		@ Test 
+		public void loginpagetitle(){
+		String title = objectofloginPage.validateloginpagetitle();
+		Assert.assertEquals(title,"#1 Free CRM for Any Business: Online Customer Relationship Software");
+		}
+		
+		@Test
+		public void loginTest(){
+			objectofhomepage = objectofloginPage.login(variabletoopenconfigfile.getProperty("username"),variabletoopenconfigfile.getProperty("password"));
+				
+				}
+		
+	@AfterMethod
+	public void close(){
+		browser.quit();
+		
+	}
+	}
+

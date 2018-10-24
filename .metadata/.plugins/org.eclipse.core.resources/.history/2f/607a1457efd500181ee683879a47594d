@@ -1,0 +1,14 @@
+package com.qa.lib;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.WebDriver;
+public class TestBase
+{
+	
+public static void Main(String[] args){
+System.setProperty ("WebDriver.ChromeDriver","Users/mu307892/Desktop/Selenium/Tools software/chromedriver_win32/chromedriver.exe");
+WebDriver browser = new ChromeDriver();
+browser.get("https://www.freecrm.com");
+		
+}
+}

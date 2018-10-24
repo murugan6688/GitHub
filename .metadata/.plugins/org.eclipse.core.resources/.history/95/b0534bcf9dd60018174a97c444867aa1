@@ -1,0 +1,25 @@
+package com.qa.Testcase;
+
+import org.testng.annotations.BeforeMethod;
+
+import com.qa.TestBase.Parent;
+
+public class Logintestcase extends Parent {
+
+	public Logintestcase(){
+		super(); // step:1 used to call the super class constructor 
+		// i.e parent class so that properties is enabled
+	}
+	
+	@BeforeMethod
+	public void setup(){
+				
+		initialise(); //Step:2 this will be initalised
+		
+		
+		
+		
+	}
+	
+	
+}

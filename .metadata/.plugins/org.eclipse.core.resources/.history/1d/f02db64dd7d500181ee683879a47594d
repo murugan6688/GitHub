@@ -1,0 +1,22 @@
+package com.qa.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import com.qa.base.TestBase;
+
+public class LoginPage extends TestBase  {
+
+	// below two annotations are from selenium - this is instead of using browser.findelement(by.)...//
+	
+	@FindBy(name="username")
+	WebElement username;
+	
+	@FindBy(name="password")
+	WebElement password;
+	
+	
+	
+	
+	
+}

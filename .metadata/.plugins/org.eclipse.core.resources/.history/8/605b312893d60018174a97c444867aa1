@@ -1,0 +1,28 @@
+package com.qa.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import com.qa.TestBase.Parent;
+
+public class LoginPage extends Parent {
+	 
+	 		@FindBy(name="username")
+	 		WebElement username;
+
+	 		@FindBy(name="password")
+	 		WebElement password;
+	 		
+	 		@FindBy(xpath="//input[@type='submit']")
+	 		WebElement loginBtn;
+	 		
+	 		@FindBy(xpath="//button[contains(text(),'SignUp')]")
+	 		WebElement signupBtn;
+	 		
+  public LoginPage(){		
+	 		
+	 		
+	 		
+	 }	
+	
+}

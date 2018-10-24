@@ -1,0 +1,51 @@
+// defining page libraries
+
+package com.qa.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.qa.base.TestBase;
+
+public class LoginPage extends TestBase  {
+
+	// below code is used instead of browser.findElement(By.xpath(xpathExpression)) for this we have to
+	// import org.openqa.selenium.support.FindBy;
+	// this option is called page factory method.
+	
+	@FindBy(name="username")
+	WebElement username;
+	
+	@FindBy(name="password")
+	WebElement password;
+	
+	@FindBy(xpath="//input[@type='submit']")
+	WebElement loginBtn;
+	
+	@FindBy(xpath="//button[contains(text(),'Sign Up']")
+	WebElement signupbtn;
+
+	// below code is to initalise the above page object repository//
+	
+	public LoginPage()
+	{
+		PageFactory.initElements(browser, this);
+		}
+
+	// below code is to perform some Action
+	public String validateloginpagetitle(){
+		return browser.getTitle();
+
+	}
+	
+public HomePage login(String un,String pwd){
+	username.sendKeys(un);
+	password.sendKeys(pwd);
+	loginBtn.click();
+	
+	return new HomePage();
+	
+	}
+}

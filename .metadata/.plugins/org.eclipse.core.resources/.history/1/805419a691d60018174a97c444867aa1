@@ -1,0 +1,14 @@
+package com.qa.pages;
+
+import com.qa.TestBase.Parent;
+
+public class LoginPage extends Parent {
+
+	  public LoginPage(){
+		 
+	 User_enter_the_valid_credentials();
+		 		
+
+	 }	
+	
+}

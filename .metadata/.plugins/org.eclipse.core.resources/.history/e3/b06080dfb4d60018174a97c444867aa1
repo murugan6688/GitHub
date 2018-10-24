@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<Suite name="Page Object Model Demo">
+	
+	<listeners>
+		<listener class-name="com.ExtentReport.extentreportLISTENER" />
+	</listeners>
+	
+	<test name="Free CRM appliaction">
+		<classes>
+			<class name="com.qa.Testcase.Logintestcase"> </class>
+		</classes>
+	</test>
+</Suite>

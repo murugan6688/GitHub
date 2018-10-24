@@ -1,0 +1,54 @@
+package com.qa.TestBase;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+
+
+import org.openqa.selenium.WebDriver;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+import com.qa.util.testutil;
+
+public class Parent {
+	public static WebDriver browser;
+	public static Properties objectref_toopenconfigproperties;
+	
+		public Parent(){
+				try {
+					objectref_toopenconfigproperties = new Properties();
+					FileInputStream Objectref_configpropertiesfile = new FileInputStream("/PageObjectModel/src/main/java/com"
+							+ "/qa/config/config.properties");
+					objectref_toopenconfigproperties.load(Objectref_configpropertiesfile);
+					
+				} catch (FileNotFoundException e) {
+										e.printStackTrace();
+				} catch (IOException e){
+						e.printStackTrace();
+						}
+	}
+		public static void initialise(){
+			String browsername=objectref_toopenconfigproperties.getProperty("chrome");
+			if (browsername.equals("chrome")){
+				System.setProperty("webdriver.chrome.driver","c:/Users/mu307892/Desktop/Selenium/Tools software/chromedriver_win32/chromedriver.exe");
+				browser = new ChromeDriver();
+							}
+				else if (browsername.equals("firefox")){
+					System.setProperty("webdriver.chrome.driver","c:/Users/mu307892/Desktop/Selenium/Tools software/chromedriver_win32/chromedriver.exe");
+				browser = new FirefoxDriver();
+				}
+				
+		browser.manage().deleteAllCookies();
+		browser.manage().window().maximize();
+		browser.manage().timeouts().pageLoadTimeout(testutil.PAGE_LOAD_TIMEOUT,TimeUnit.SECONDS);
+		browser.manage().timeouts().implicitlyWait(testutil.IMPLICIT_WAIT,TimeUnit.SECONDS);
+		browser.get(objectref_toopenconfigproperties.getProperty("url"));
+		
+		}
+	}
+

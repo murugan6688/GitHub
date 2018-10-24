@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57630" started-at="2018-10-11T10:30:55Z" finished-at="2018-10-11T10:31:53Z">
+    <groups>
+      <group name="reg pack">
+        <method signature="TestNGbasics.launchbrowser12()[pri:2, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser12" class="comTestNg.TestNGbasics"/>
+        <method signature="TestNGbasics.launchbrowser5()[pri:1, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser5" class="comTestNg.TestNGbasics"/>
+      </group> <!-- reg pack -->
+    </groups>
+    <test name="Default test" duration-ms="57630" started-at="2018-10-11T10:30:55Z" finished-at="2018-10-11T10:31:53Z">
+      <class name="comTestNg.TestNGbasics">
+        <test-method status="PASS" signature="launchbrowser1()[pri:0, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser1" is-config="true" duration-ms="35" started-at="2018-10-11T10:30:55Z" finished-at="2018-10-11T10:30:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser1 -->
+        <test-method status="PASS" signature="launchbrowser4()[pri:0, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser4" is-config="true" duration-ms="1" started-at="2018-10-11T10:30:55Z" finished-at="2018-10-11T10:30:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser4 -->
+        <test-method status="PASS" signature="launchbrowser2()[pri:0, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser2" is-config="true" duration-ms="1" started-at="2018-10-11T10:30:55Z" finished-at="2018-10-11T10:30:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser2 -->
+        <test-method status="PASS" signature="launchbrowser5()[pri:1, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser5" duration-ms="10044" started-at="2018-10-11T10:30:55Z" finished-at="2018-10-11T10:31:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser5 -->
+        <test-method status="PASS" signature="launchbrowser3()[pri:0, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser3" is-config="true" duration-ms="0" started-at="2018-10-11T10:30:55Z" finished-at="2018-10-11T10:30:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser3 -->
+        <test-method status="PASS" signature="launchbrowser6()[pri:0, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser6" is-config="true" duration-ms="0" started-at="2018-10-11T10:31:05Z" finished-at="2018-10-11T10:31:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser6 -->
+        <test-method status="PASS" signature="launchbrowser12()[pri:2, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser12" duration-ms="30256" started-at="2018-10-11T10:31:05Z" finished-at="2018-10-11T10:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser12 -->
+        <test-method status="PASS" signature="launchbrowser3()[pri:0, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser3" is-config="true" duration-ms="0" started-at="2018-10-11T10:31:05Z" finished-at="2018-10-11T10:31:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser3 -->
+        <test-method status="PASS" signature="launchbrowser6()[pri:0, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser6" is-config="true" duration-ms="0" started-at="2018-10-11T10:31:36Z" finished-at="2018-10-11T10:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser6 -->
+        <test-method status="PASS" signature="launchbrowser3()[pri:0, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser3" is-config="true" duration-ms="0" started-at="2018-10-11T10:31:36Z" finished-at="2018-10-11T10:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser3 -->
+        <test-method status="PASS" signature="launchbrowser13()[pri:3, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser13" duration-ms="17255" started-at="2018-10-11T10:31:36Z" depends-on-methods="comTestNg.TestNGbasics.launchbrowser12" finished-at="2018-10-11T10:31:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser13 -->
+        <test-method status="PASS" signature="launchbrowser6()[pri:0, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser6" is-config="true" duration-ms="0" started-at="2018-10-11T10:31:53Z" finished-at="2018-10-11T10:31:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser6 -->
+        <test-method status="PASS" signature="launchbrowser9()[pri:0, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser9" is-config="true" duration-ms="0" started-at="2018-10-11T10:31:53Z" finished-at="2018-10-11T10:31:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser9 -->
+        <test-method status="PASS" signature="launchbrowser7()[pri:0, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser7" is-config="true" duration-ms="0" started-at="2018-10-11T10:31:53Z" finished-at="2018-10-11T10:31:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser7 -->
+        <test-method status="PASS" signature="launchbrowser8()[pri:0, instance:comTestNg.TestNGbasics@480bdb19]" name="launchbrowser8" is-config="true" duration-ms="0" started-at="2018-10-11T10:31:53Z" finished-at="2018-10-11T10:31:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser8 -->
+      </class> <!-- comTestNg.TestNGbasics -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

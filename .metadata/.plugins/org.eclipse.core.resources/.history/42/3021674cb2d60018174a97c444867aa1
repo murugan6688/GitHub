@@ -1,0 +1,12 @@
+First create folder structure in the below format
+SRC/MAIN/JAVA
+SRC/MAIN/JAVA/com.qa.base(Package) ----------Parent
+SRC/MAIN/JAVA/com.qa.config(Package)---------
+config.properties --------------------------- For environment variables
+SRC/MAIN/JAVA/com.qa.pages(Package) --------- child (For web element properties - individual pages)
+SRC/MAIN/JAVA/com.qa.testdataEXCEL(Package) -
+testdata.xls--------------------------------- For test data
+SRC/MAIN/JAVA/com.qa.util(Package)-----------
+SRC/TEST/JAVA
+SRC/MAIN/JAVA/com.qa.Testcase(Package)-------- For test case 
+SRC/MAIN/RESOURCE

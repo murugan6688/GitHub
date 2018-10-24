@@ -1,0 +1,8 @@
+package com.qa.pages.objectrepository;
+
+import com.qa.ParentTestBase.Parent;
+
+public class ContactPage extends Parent
+{
+
+}

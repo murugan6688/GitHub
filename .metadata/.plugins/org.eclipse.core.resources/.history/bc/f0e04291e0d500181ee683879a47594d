@@ -1,0 +1,13 @@
+package com.qa.TestNG.Testcases;
+
+import org.testng.annotations.BeforeMethod;
+
+import com.qa.base.TestBase;
+
+public class Regression extends TestBase{
+
+	@BeforeMethod
+	public void setup(){
+		
+	}
+}
