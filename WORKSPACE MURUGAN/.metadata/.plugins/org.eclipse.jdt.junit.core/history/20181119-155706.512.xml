@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="testbdd" tests="8" started="8" failures="0" errors="0" ignored="8">
+  <testsuite name="runner1.testrunner" time="0.0">
+    <testsuite name="Feature: Free CRM login page validation" time="0.0">
+      <testsuite name="Scenario: To validate Free CRM Login Test with valid credentails" time="0.0" incomplete="true">
+        <skipped/>
+        <testcase name="Given Login page is available to access" classname="Scenario: To validate Free CRM Login Test with valid credentails" time="0.0" ignored="true"/>
+        <testcase name="When User enter the valid credentials" classname="Scenario: To validate Free CRM Login Test with valid credentails" time="0.0" ignored="true"/>
+        <testcase name="Then User clicks the login button" classname="Scenario: To validate Free CRM Login Test with valid credentails" time="0.0" ignored="true"/>
+        <testcase name="And page navigates without error" classname="Scenario: To validate Free CRM Login Test with valid credentails" time="0.0" ignored="true"/>
+        <testcase name="Given Login page is available to access" classname="Scenario: To validate Free CRM Login Test with valid credentails" time="0.0" ignored="true"/>
+        <testcase name="When User enter the valid credentials" classname="Scenario: To validate Free CRM Login Test with valid credentails" time="0.0" ignored="true"/>
+        <testcase name="Then User clicks the login button" classname="Scenario: To validate Free CRM Login Test with valid credentails" time="0.0" ignored="true"/>
+        <testcase name="And page navigates without error" classname="Scenario: To validate Free CRM Login Test with valid credentails" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,9 @@
+Feature: Test Feature
+Scenario: to validate login functionality
+
+Given Application is working fine
+When Login page is opened
+When enter valid credentials
+And click login button
+
+

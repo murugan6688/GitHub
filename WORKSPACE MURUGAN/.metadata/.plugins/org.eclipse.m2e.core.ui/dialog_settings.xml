@@ -19,6 +19,20 @@
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.LocalArchetypeCatalogDialog">
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
@@ -30,8 +44,18 @@
 			<item value="[name]"/>
 		</list>
 	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
+		<list key="catalogUrl">
+			<item value="http://repo.maven.apache.org/maven2/archetype-catalog.xml"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\mu307892\Documents\GitHub\GitHub\WORKSPACE MURUGAN\zzzzDEFERRED-AutomationFramework-Page Object Model"/>
+			<item value="C:\Users\mu307892\Documents\GitHub\GitHub\WORKSPACE MURUGAN\BDDFrameworkCucumber"/>
+			<item value="C:\Users\mu307892\Documents\GitHub\GitHub\WORKSPACE MURUGAN"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -44,16 +68,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.com.restapitest.restapi"/>
-			<item value="maven.mavenartifact"/>
+			<item value="testbdd.testbdd"/>
 		</list>
 		<list key="groupId">
-			<item value="org.com.restapitest"/>
-			<item value="maven"/>
+			<item value="testbdd"/>
 		</list>
 		<list key="artifactId">
-			<item value="restapi"/>
-			<item value="mavenartifact"/>
+			<item value="testbdd"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
