@@ -26,4 +26,8 @@
 <fullyQualifiedTypeName name="org.hamcrest.Matchers"/>
 <fullyQualifiedTypeName name="com.jayway.restassured.RestAssured"/>
 <fullyQualifiedTypeName name="cucumber.api.CucumberOptions"/>
+<fullyQualifiedTypeName name="cucumber.api.PendingException"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.When"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.Then"/>
 </qualifiedTypeNameHistroy>

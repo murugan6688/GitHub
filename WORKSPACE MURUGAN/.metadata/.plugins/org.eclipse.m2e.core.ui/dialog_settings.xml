@@ -53,9 +53,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\mu307892\Documents\GitHub\GitHub\WORKSPACE MURUGAN"/>
 			<item value="C:\Users\mu307892\Documents\GitHub\GitHub\WORKSPACE MURUGAN\zzzzDEFERRED-AutomationFramework-Page Object Model"/>
 			<item value="C:\Users\mu307892\Documents\GitHub\GitHub\WORKSPACE MURUGAN\BDDFrameworkCucumber"/>
-			<item value="C:\Users\mu307892\Documents\GitHub\GitHub\WORKSPACE MURUGAN"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -68,12 +68,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="REFERENCE.REFERENCE"/>
 			<item value="testbdd.testbdd"/>
 		</list>
 		<list key="groupId">
+			<item value="REFERENCE"/>
 			<item value="testbdd"/>
 		</list>
 		<list key="artifactId">
+			<item value="REFERENCE"/>
 			<item value="testbdd"/>
 		</list>
 		<list key="projectNameTemplate">
