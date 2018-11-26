@@ -68,14 +68,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="selenium_training.Training"/>
 			<item value="REFERENCE.REFERENCE"/>
 			<item value="testbdd.testbdd"/>
 		</list>
 		<list key="groupId">
+			<item value="selenium_training"/>
 			<item value="REFERENCE"/>
 			<item value="testbdd"/>
 		</list>
 		<list key="artifactId">
+			<item value="Training"/>
 			<item value="REFERENCE"/>
 			<item value="testbdd"/>
 		</list>

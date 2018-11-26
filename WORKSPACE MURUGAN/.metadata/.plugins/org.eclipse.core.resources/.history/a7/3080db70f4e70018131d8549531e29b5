@@ -1,9 +1,0 @@
-package com.restassured.com.restassured;
-
-import org.junit.Test;
-import static com.jayway.
-public class App 
-{
-    @Test
-    
-}

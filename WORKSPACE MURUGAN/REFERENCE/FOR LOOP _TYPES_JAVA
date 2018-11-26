@@ -1,0 +1,7 @@
+https://www.baeldung.com/java-loops
+
+This enhanced for loop is used when we use asMAPS in cucumber 
+and 
+data table in cucumber (when raw() function returns list of list i.e (list<list>) 
+and 
+Map string of strings i.e (String,string)

@@ -11,6 +11,3 @@ Given Login page is available to access
 When User enter the valid credentials
 Then  User clicks the login button 
 And page navigates without error 
-
-
-	

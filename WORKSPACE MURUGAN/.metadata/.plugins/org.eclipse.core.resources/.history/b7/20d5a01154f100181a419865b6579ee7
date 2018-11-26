@@ -1,0 +1,18 @@
+package Selenium;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Launchchromebrowser {
+public static void main(String[] args) 
+	{
+			System.setProperty("webdriver.chrome.driver", "c:/Users/mu307892/Desktop/Selenium/Tools software/chromedriver_win32/chromedriver.exe");
+			WebDriver driver = new ChromeDriver();
+			driver.get("https://www.google.com/");
+			String t = driver.getTitle();
+					
+			System.out.println("title of the url is:" +t);
+			
+			driver.close();
+}
+
+}

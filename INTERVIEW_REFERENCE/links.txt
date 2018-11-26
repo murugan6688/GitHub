@@ -1,0 +1,16 @@
+https://github.com/rest-assured/rest-assured.github.io
+
+https://github.com/rest-assured/rest-assured/wiki/Usage
+
+https://github.com/rest-assured/rest-assured
+
+
+https://blog.jayway.com/category/tutorial/
+
+https://techbeacon.com/how-perform-api-testing-rest-assured
+
+https://www.testdevlab.com/blog/2018/06/an-introduction-to-testing-apis-using-rest-assured/
+
+http://ncdrc.nic.in/
+
+https://www.seleniumhq.org/docs/07_selenium_grid.jsp

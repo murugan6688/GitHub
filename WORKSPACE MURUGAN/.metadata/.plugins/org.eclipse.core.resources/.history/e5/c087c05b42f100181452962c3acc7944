@@ -1,0 +1,13 @@
+package selenium_training.Training;
+
+import org.junit.Test;
+
+public class AppTest extends Precondition
+{
+    @Test
+    public void shouldAnswerWithTrue()
+    {
+    	browser.get("www.freecrm.com");
+        
+    }
+}

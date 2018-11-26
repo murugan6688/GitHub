@@ -1,0 +1,22 @@
+package selenium_training.Training;
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest extends Precondition
+{
+    .
+	/**
+     * Rigorous Test :-)
+     */
+    @Test
+    public void shouldAnswerWithTrue()
+    {
+    	browser.get("www.freecrm.com");
+        assertTrue( true );
+    }
+}
