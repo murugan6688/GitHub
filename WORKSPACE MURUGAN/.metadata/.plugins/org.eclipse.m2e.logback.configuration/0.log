@@ -1970,3 +1970,8 @@ org.eclipse.jdt.core.JavaModelException: <project root> [in selenium] is not on 
 2018-11-26 19:03:21,594 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mu307892\Documents\GitHub\GitHub\WORKSPACE MURUGAN\com.restassured\src\main\resources
 2018-11-26 19:03:21,600 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-11-26 19:03:21,601 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mu307892\Documents\GitHub\GitHub\WORKSPACE MURUGAN\com.restassured\src\test\resources
+2018-11-27 12:58:06,228 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-11-27 18:44:28,052 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-27 18:44:28,070 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mu307892\Documents\GitHub\GitHub\WORKSPACE MURUGAN\REFERENCE\src\main\resources
+2018-11-27 18:44:28,075 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-27 18:44:28,075 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mu307892\Documents\GitHub\GitHub\WORKSPACE MURUGAN\REFERENCE\src\test\resources

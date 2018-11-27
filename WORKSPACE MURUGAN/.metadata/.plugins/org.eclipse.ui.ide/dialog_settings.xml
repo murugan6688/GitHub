@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\mu307892\Documents\GitHub\GitHub\WORKSPACE MURUGAN"/>
+		<item value="C:\Users\mu307892\Documents\GitHub\GitHub\WORKSPACE MURUGAN\selenium"/>
 		<item value="C:\Users\mu307892\Documents\GitHub"/>
 	</list>
 	<section name="NewWizardAction">
